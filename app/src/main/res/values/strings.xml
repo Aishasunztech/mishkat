@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Mishkat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="book_name">Book: Mishkat  </string>
+    <string name="bookNameToolbar">Mishkat #</string>
+    <string name="sahih_bukhari">Mishkat</string>
+    <string name="app_title">Mishkat</string>
+
+    <string name="app_id">ca-app-pub-9166385430984549~9180613619</string>
+    <string name="banner_id">ca-app-pub-9166385430984549/4666653536</string>
+    <string name="interstitial_id">ca-app-pub-9166385430984549/9016962084</string>
+</resources>
