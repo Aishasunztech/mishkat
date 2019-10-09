@@ -8,7 +8,13 @@
     <string name="sahih_bukhari">Mishkat</string>
     <string name="app_title">Mishkat</string>
 
+<!--    Testing-->
     <string name="app_id">ca-app-pub-9166385430984549~9180613619</string>
-    <string name="banner_id">ca-app-pub-9166385430984549/4666653536</string>
-    <string name="interstitial_id">ca-app-pub-9166385430984549/9016962084</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+
+<!--    Real Ids-->
+<!--    <string name="app_id">ca-app-pub-9166385430984549~9180613619</string>-->
+<!--    <string name="banner_id">ca-app-pub-9166385430984549/4666653536</string>-->
+<!--    <string name="interstitial_id">ca-app-pub-9166385430984549/9016962084</string>-->
 </resources>

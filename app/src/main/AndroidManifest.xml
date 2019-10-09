@@ -18,11 +18,12 @@
             android:value="@string/app_id"/>
 
 
-        <activity android:name="com.sunztech.mishkat.BookMarkActivity"></activity>
-        <activity android:name="com.sunztech.mishkat.HadithDetailsActivity" />
-        <activity android:name="com.sunztech.mishkat.ChapterDetailsActivity" />
-        <activity android:name="com.sunztech.mishkat.BookDetailsActivity" />
-        <activity android:name="com.sunztech.mishkat.MainActivity">
+        <activity android:name="com.sunztech.mishkat.BookMarkActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="com.sunztech.mishkat.HadithDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.sunztech.mishkat.ChapterDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.sunztech.mishkat.BookDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.sunztech.mishkat.MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -31,7 +32,12 @@
             </intent-filter>
         </activity>
 
+        <receiver android:name=".AlarmReceiver" />
 
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="1c50bdfa896fd50c77942192e92f2fc6207d89d6" />
     </application>
 
 </manifest>

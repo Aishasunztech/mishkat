@@ -204,4 +204,40 @@ public class DatabaseAccess {
         return hadeesItems;
 
     }
+
+    public HadithItem getRandomHadith()
+    {
+    HadithItem hadees = null;
+        c = db.rawQuery("SELECT * FROM tbl_Mishkat ORDER BY RANDOM() LIMIT 1", new String[]{});
+        if (c != null) {
+            while (c.moveToNext()) {
+
+                hadees = new HadithItem();
+                hadees.setHadees_number(c.getInt(1));
+                hadees.setBookUR(c.getString(2));
+                hadees.setBaab_Eng(c.getString(3));
+                hadees.setKitab_Eng(c.getString(4));
+                hadees.setBaab(c.getString(5));
+                hadees.setKitab(c.getString(6));
+                hadees.setArabic(c.getString(7));
+                hadees.setRavi(c.getString(8));
+                hadees.setUrdu(c.getString(9));
+                hadees.setEnglish(c.getString(10));
+                hadees.setVolume(c.getString(11));
+                hadees.setBookEng(c.getString(12));
+                hadees.setBaab_ID(c.getInt(13));
+                hadees.setKitab_ID(c.getInt(14));
+                hadees.setTakhreej(c.getString(15));
+                hadees.setWazahat(c.getString(16));
+                hadees.setStatus(c.getString(17));
+                hadees.setStatus_Ref(c.getString(18));
+                hadees.setEnglish_Ref(c.getString(19));
+                hadees.setBookNo(c.getInt(20));
+                hadees.setSahih_Zaeef(c.getString(21));
+                hadees.setIs_bookmarked(c.getInt(22));
+
+            }
+        }
+        return hadees;
+    }
 }
