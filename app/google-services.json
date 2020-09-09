@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "186988795393",
+    "firebase_url": "https://mishkat-68d4a.firebaseio.com",
+    "project_id": "mishkat-68d4a",
+    "storage_bucket": "mishkat-68d4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186988795393:android:9b39ccbd3845f647abd200",
+        "android_client_info": {
+          "package_name": "com.sunztech.mishkat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186988795393-aa4kka3vo4ikknrc6vmi8bh9l86mb172.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK6P0MEOLEaJCGh0dt1S6My2DJj71Ju1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186988795393-aa4kka3vo4ikknrc6vmi8bh9l86mb172.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
